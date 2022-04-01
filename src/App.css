@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+table {
+  border: 1px solid black;
+}
+
+table td,
+table {
+  border-radius: 0.25rem;
+}
+
+table td {
+  width: 3.5rem;
+  text-align: center;
+  background-color: lightblue;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+table tr {
+  height: 3.5rem;
+}
